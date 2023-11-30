@@ -20,14 +20,14 @@ class Videogame:
         self.genre=genre
 ```
 2. Реалізував метод з виведенням властивостей об'єкта класу.
-```
+```Python
 def show(self):
         print("Назва гри: "+self.name)
         print("Рік випуску: %s" %self.year)
         print("Жанр гри: "+self.genre)
 ```
 3. Створив лічильник класу, а також створив декілька об'єктів класу з викликом методів показу інформації про об'єкти і їх кількість.
-```
+```Py
 ...
 lichylnyk=0
     def __init__(self, name, year, genre):
